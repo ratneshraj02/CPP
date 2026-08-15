@@ -1,22 +1,22 @@
-/* While loop */
-/*
+/* Do while Loop */
+/*  
     initialization
-    while(condition){
-    
+    do {
         //statement
+
         updation
-    }
+    } while(condition);
 */
 
 #include <iostream>
-using namespace std;
+using namespace std; 
 int main(){
 
-    int i = 0;
-    while(i <= 5){
+    int i = 1;
+    do {
         cout << i << " ";
         i++;
-    }
+    } while (i <= 5);
     cout << endl;
     return 0;
 }
